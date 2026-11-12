@@ -1,0 +1,451 @@
+case_id,field_name,value,source_file,source_page,extractor,reviewer,status
+PF001,nomorPerkara,761/Pid.Sus/2022/PN Kis,putusan_001.pdf,1,Putra,Putra,corrected
+PF001,tanggalPutusan,2022-12-08,putusan_001.pdf,20,Putra,Putra,corrected
+PF001,jenisNarkotika,sabu,putusan_001.pdf,2,Putra,Putra,corrected
+PF001,beratBarabfBuktiGram,0,putusan_001.pdf,3,Putra,Putra,corrected
+PF001,pasalDakwaan,114(1)|112(1) jo 132(1),putusan_001.pdf,4,Putra,Putra,corrected
+PF001,pasalTerbukti,112(1) jo 132(1),putusan_001.pdf,19,Putra,Putra,corrected
+PF001,tuntutanBulan,60,putusan_001.pdf,2,Putra,Putra,corrected
+PF001,vonisBulan,48,putusan_001.pdf,19,Putra,Putra,corrected
+PF001,dendaRupiah,800000000,putusan_001.pdf,19,Putra,Putra,corrected
+PF002,nomorPerkara,762/Pid.Sus/2022/PN Kis,putusan_002.pdf,1,Putra,Putra,corrected
+PF002,tanggalPutusan,2022-12-08,putusan_002.pdf,21,Putra,Putra,corrected
+PF002,jenisNarkotika,sabu,putusan_002.pdf,2,Putra,Putra,corrected
+PF002,beratBarabfBuktiGram,1.0695,putusan_002.pdf,5,Putra,Putra,corrected
+PF002,pasalDakwaan,114(1) jo 132(1)|112(1) jo 132(1),putusan_002.pdf,5,Putra,Putra,corrected
+PF002,pasalTerbukti,112(1) jo 132(1),putusan_002.pdf,21,Putra,Putra,corrected
+PF002,tuntutanBulan,60,putusan_002.pdf,2,Putra,Putra,corrected
+PF002,vonisBulan,60,putusan_002.pdf,21,Putra,Putra,corrected
+PF002,dendaRupiah,1200000000,putusan_002.pdf,21,Putra,Putra,corrected
+PF003,nomorPerkara,763/Pid.Sus/2022/PN Kis,putusan_003.pdf,1,Putra,Putra,corrected
+PF003,tanggalPutusan,2022-12-08,putusan_003.pdf,18,Putra,Putra,corrected
+PF003,jenisNarkotika,sabu,putusan_003.pdf,2,Putra,Putra,corrected
+PF003,beratBarabfBuktiGram,0,putusan_003.pdf,3,Putra,Putra,corrected
+PF003,pasalDakwaan,112(1),putusan_003.pdf,4,Putra,Putra,corrected
+PF003,pasalTerbukti,112(1),putusan_003.pdf,18,Putra,Putra,corrected
+PF003,tuntutanBulan,60,putusan_003.pdf,2,Putra,Putra,corrected
+PF003,vonisBulan,60,putusan_003.pdf,18,Putra,Putra,corrected
+PF003,dendaRupiah,1200000000,putusan_003.pdf,18,Putra,Putra,corrected
+PF004,nomorPerkara,765/Pid.Sus/2022/PN Kis,putusan_004.pdf,1,Putra,Putra,corrected
+PF004,tanggalPutusan,2022-12-08,putusan_004.pdf,21,Putra,Putra,corrected
+PF004,jenisNarkotika,sabu,putusan_004.pdf,2,Putra,Putra,corrected
+PF004,beratBarabfBuktiGram,1.29,putusan_004.pdf,5,Putra,Putra,corrected
+PF004,pasalDakwaan,114(1)|112(1),putusan_004.pdf,4,Putra,Putra,corrected
+PF004,pasalTerbukti,112(1),putusan_004.pdf,20,Putra,Putra,corrected
+PF004,tuntutanBulan,60,putusan_004.pdf,2,Putra,Putra,corrected
+PF004,vonisBulan,48,putusan_004.pdf,20,Putra,Putra,corrected
+PF004,dendaRupiah,800000000,putusan_004.pdf,20,Putra,Putra,corrected
+PF005,nomorPerkara,846/Pid.Sus/2022/PN Kis,putusan_005.pdf,1,Putra,Putra,corrected
+PF005,tanggalPutusan,2022-12-15,putusan_005.pdf,15,Putra,Putra,corrected
+PF005,jenisNarkotika,sabu,putusan_005.pdf,2,Putra,Putra,corrected
+PF005,beratBarabfBuktiGram,2.968,putusan_005.pdf,5,Putra,Putra,corrected
+PF005,pasalDakwaan,127(1) huruf a,putusan_005.pdf,3,Putra,Putra,corrected
+PF005,pasalTerbukti,127(1) huruf a,putusan_005.pdf,15,Putra,Putra,corrected
+PF005,tuntutanBulan,36,putusan_005.pdf,2,Putra,Putra,corrected
+PF005,vonisBulan,24,putusan_005.pdf,15,Putra,Putra,corrected
+PF005,dendaRupiah,0,putusan_005.pdf,15,Putra,Putra,corrected
+PF006,nomorPerkara,856/Pid.Sus/2022/PN Kis,putusan_006.pdf,1,Putra,Putra,corrected
+PF006,tanggalPutusan,2022-12-19,putusan_006.pdf,13,Putra,Putra,corrected
+PF006,jenisNarkotika,sabu,putusan_006.pdf,2,Putra,Putra,corrected
+PF006,beratBarabfBuktiGram,3.22,putusan_006.pdf,4,Putra,Putra,corrected
+PF006,pasalDakwaan,114(1)|112(1),putusan_006.pdf,4,Putra,Putra,corrected
+PF006,pasalTerbukti,112(1),putusan_006.pdf,13,Putra,Putra,corrected
+PF006,tuntutanBulan,66,putusan_006.pdf,2,Putra,Putra,corrected
+PF006,vonisBulan,60,putusan_006.pdf,13,Putra,Putra,corrected
+PF006,dendaRupiah,1500000000,putusan_006.pdf,13,Putra,Putra,corrected
+PF007,nomorPerkara,860/Pid.Sus/2022/PN Kis,putusan_007.pdf,1,Putra,Putra,corrected
+PF007,tanggalPutusan,2022-12-15,putusan_007.pdf,14,Putra,Putra,corrected
+PF007,jenisNarkotika,sabu,putusan_007.pdf,2,Putra,Putra,corrected
+PF007,beratBarabfBuktiGram,0.08,putusan_007.pdf,4,Putra,Putra,corrected
+PF007,pasalDakwaan,112(1),putusan_007.pdf,4,Putra,Putra,corrected
+PF007,pasalTerbukti,112(1),putusan_007.pdf,13,Putra,Putra,corrected
+PF007,tuntutanBulan,72,putusan_007.pdf,2,Putra,Putra,corrected
+PF007,vonisBulan,48,putusan_007.pdf,13,Putra,Putra,corrected
+PF007,dendaRupiah,1110000000,putusan_007.pdf,13,Putra,Putra,corrected
+PF008,nomorPerkara,861/Pid.Sus/2022/PN Kis,putusan_008.pdf,1,Putra,Putra,corrected
+PF008,tanggalPutusan,2022-12-15,putusan_008.pdf,14,Putra,Putra,corrected
+PF008,jenisNarkotika,sabu,putusan_008.pdf,2,Putra,Putra,corrected
+PF008,beratBarabfBuktiGram,486,putusan_008.pdf,4,Putra,Putra,corrected
+PF008,pasalDakwaan,112(1),putusan_008.pdf,4,Putra,Putra,corrected
+PF008,pasalTerbukti,112(1),putusan_008.pdf,13,Putra,Putra,corrected
+PF008,tuntutanBulan,72,putusan_008.pdf,2,Putra,Putra,corrected
+PF008,vonisBulan,48,putusan_008.pdf,13,Putra,Putra,corrected
+PF008,dendaRupiah,1110000000,putusan_008.pdf,13,Putra,Putra,corrected
+PF009,nomorPerkara,863/Pid.Sus/2022/PN Kis,putusan_009.pdf,1,Putra,Putra,corrected
+PF009,tanggalPutusan,2022-12-15,putusan_009.pdf,17,Putra,Putra,corrected
+PF009,jenisNarkotika,sabu,putusan_009.pdf,2,Putra,Putra,corrected
+PF009,beratBarabfBuktiGram,3.38,putusan_009.pdf,5,Putra,Putra,corrected
+PF009,pasalDakwaan,114(1)|112(1) jo 132(1),putusan_009.pdf,4,Putra,Putra,corrected
+PF009,pasalTerbukti,112(1) jo 132(1),putusan_009.pdf,17,Putra,Putra,corrected
+PF009,tuntutanBulan,72,putusan_009.pdf,2,Putra,Putra,corrected
+PF009,vonisBulan,60,putusan_009.pdf,17,Putra,Putra,corrected
+PF009,dendaRupiah,1200000000,putusan_009.pdf,17,Putra,Putra,corrected
+PF010,nomorPerkara,864/Pid.Sus/2022/PN Kis,putusan_010.pdf,1,Putra,Putra,corrected
+PF010,tanggalPutusan,2022-12-15,putusan_010.pdf,17,Putra,Putra,corrected
+PF010,jenisNarkotika,sabu,putusan_010.pdf,2,Putra,Putra,corrected
+PF010,beratBarabfBuktiGram,3.38,putusan_010.pdf,5,Putra,Putra,corrected
+PF010,pasalDakwaan,114(1)|112(1) jo 132(1),putusan_010.pdf,4,Putra,Putra,corrected
+PF010,pasalTerbukti,112(1) jo 132(1),putusan_010.pdf,17,Putra,Putra,corrected
+PF010,tuntutanBulan,72,putusan_010.pdf,2,Putra,Putra,corrected
+PF010,vonisBulan,60,putusan_010.pdf,17,Putra,Putra,corrected
+PF010,dendaRupiah,1200000000,putusan_010.pdf,17,Putra,Putra,corrected
+PF011,nomorPerkara,867/Pid.Sus/2022/PN Kis,putusan_011.pdf,1,Putra,Putra,corrected
+PF011,tanggalPutusan,2022-12-15,putusan_011.pdf,24,Putra,Putra,corrected
+PF011,jenisNarkotika,sabu,putusan_011.pdf,2,Putra,Putra,corrected
+PF011,beratBarabfBuktiGram,9.14,putusan_011.pdf,6,Putra,Putra,corrected
+PF011,pasalDakwaan,114(2)|112(2) jo 132(1),putusan_011.pdf,5,Putra,Putra,corrected
+PF011,pasalTerbukti,112(2) jo 132(1),putusan_011.pdf,24,Putra,Putra,corrected
+PF011,tuntutanBulan,72,putusan_011.pdf,2,Putra,Putra,corrected
+PF011,vonisBulan,60,putusan_011.pdf,24,Putra,Putra,corrected
+PF011,dendaRupiah,1500000000,putusan_011.pdf,24,Putra,Putra,corrected
+PF012,nomorPerkara,868/Pid.Sus/2022/PN Kis,putusan_012.pdf,1,Putra,Putra,corrected
+PF012,tanggalPutusan,2022-12-15,putusan_012.pdf,23,Putra,Putra,corrected
+PF012,jenisNarkotika,sabu,putusan_012.pdf,2,Putra,Putra,corrected
+PF012,beratBarabfBuktiGram,0.52,putusan_012.pdf,5,Putra,Putra,corrected
+PF012,pasalDakwaan,114(2)|112(2) jo 132(1),putusan_012.pdf,4,Putra,Putra,corrected
+PF012,pasalTerbukti,112(2) jo 132(1),putusan_012.pdf,23,Putra,Putra,corrected
+PF012,tuntutanBulan,72,putusan_012.pdf,2,Putra,Putra,corrected
+PF012,vonisBulan,60,putusan_012.pdf,23,Putra,Putra,corrected
+PF012,dendaRupiah,1415000000,putusan_012.pdf,23,Putra,Putra,corrected
+PF013,nomorPerkara,873/Pid.Sus/2022/PN Kis,putusan_013.pdf,1,Putra,Putra,corrected
+PF013,tanggalPutusan,2022-12-15,putusan_013.pdf,20,Putra,Putra,corrected
+PF013,jenisNarkotika,sabu,putusan_013.pdf,2,Putra,Putra,corrected
+PF013,beratBarabfBuktiGram,325,putusan_013.pdf,5,Putra,Putra,corrected
+PF013,pasalDakwaan,127(1) huruf a,putusan_013.pdf,4,Putra,Putra,corrected
+PF013,pasalTerbukti,127(1) huruf a jo 55(1) ke-1 KUHP,putusan_013.pdf,20,Putra,Putra,corrected
+PF013,tuntutanBulan,36,putusan_013.pdf,2,Putra,Putra,corrected
+PF013,vonisBulan,30,putusan_013.pdf,20,Putra,Putra,corrected
+PF013,dendaRupiah,0,putusan_013.pdf,20,Putra,Putra,corrected
+PF014,nomorPerkara,879/Pid.Sus/2022/PN Kis,putusan_014.pdf,1,Putra,Putra,corrected
+PF014,tanggalPutusan,2022-12-15,putusan_014.pdf,18,Putra,Putra,corrected
+PF014,jenisNarkotika,sabu,putusan_014.pdf,2,Putra,Putra,corrected
+PF014,beratBarabfBuktiGram,8.538,putusan_014.pdf,4,Putra,Putra,corrected
+PF014,pasalDakwaan,114(1),putusan_014.pdf,4,Putra,Putra,corrected
+PF014,pasalTerbukti,114(1),putusan_014.pdf,18,Putra,Putra,corrected
+PF014,tuntutanBulan,84,putusan_014.pdf,2,Putra,Putra,corrected
+PF014,vonisBulan,72,putusan_014.pdf,18,Putra,Putra,corrected
+PF014,dendaRupiah,1500000000,putusan_014.pdf,18,Putra,Putra,corrected
+PF015,nomorPerkara,886/Pid.Sus/2022/PN Kis,putusan_015.pdf,1,Putra,Putra,corrected
+PF015,tanggalPutusan,2022-12-15,putusan_015.pdf,17,Putra,Putra,corrected
+PF015,jenisNarkotika,sabu,putusan_015.pdf,2,Putra,Putra,corrected
+PF015,beratBarabfBuktiGram,10,putusan_015.pdf,5,Putra,Putra,corrected
+PF015,pasalDakwaan,114(2)|112(2),putusan_015.pdf,4,Putra,Putra,corrected
+PF015,pasalTerbukti,112(2),putusan_015.pdf,17,Putra,Putra,corrected
+PF015,tuntutanBulan,90,putusan_015.pdf,2,Putra,Putra,corrected
+PF015,vonisBulan,60,putusan_015.pdf,17,Putra,Putra,corrected
+PF015,dendaRupiah,1500000000,putusan_015.pdf,17,Putra,Putra,corrected
+PF016,nomorPerkara,890/Pid.Sus/2022/PN Kis,putusan_016.pdf,1,Putra,Putra,corrected
+PF016,tanggalPutusan,2022-12-15,putusan_016.pdf,20,Putra,Putra,corrected
+PF016,jenisNarkotika,sabu,putusan_016.pdf,2,Putra,Putra,corrected
+PF016,beratBarabfBuktiGram,8.62,putusan_016.pdf,5,Putra,Putra,corrected
+PF016,pasalDakwaan,114(2)|112(2),putusan_016.pdf,4,Putra,Putra,corrected
+PF016,pasalTerbukti,112(2),putusan_016.pdf,20,Putra,Putra,corrected
+PF016,tuntutanBulan,90,putusan_016.pdf,2,Putra,Putra,corrected
+PF016,vonisBulan,84,putusan_016.pdf,20,Putra,Putra,corrected
+PF016,dendaRupiah,1500000000,putusan_016.pdf,20,Putra,Putra,corrected
+PF017,nomorPerkara,893/Pid.Sus/2022/PN Kis,putusan_017.pdf,1,Putra,Putra,corrected
+PF017,tanggalPutusan,2022-12-15,putusan_017.pdf,15,Putra,Putra,corrected
+PF017,jenisNarkotika,sabu,putusan_017.pdf,2,Putra,Putra,corrected
+PF017,beratBarabfBuktiGram,0.24,putusan_017.pdf,5,Putra,Putra,corrected
+PF017,pasalDakwaan,114(1)|112(1),putusan_017.pdf,4,Putra,Putra,corrected
+PF017,pasalTerbukti,112(1),putusan_017.pdf,15,Putra,Putra,corrected
+PF017,tuntutanBulan,54,putusan_017.pdf,2,Putra,Putra,corrected
+PF017,vonisBulan,48,putusan_017.pdf,15,Putra,Putra,corrected
+PF017,dendaRupiah,800000000,putusan_017.pdf,15,Putra,Putra,corrected
+PF018,nomorPerkara,894/Pid.Sus/2022/PN Kis,putusan_018.pdf,1,Putra,Putra,corrected
+PF018,tanggalPutusan,2022-12-15,putusan_018.pdf,16,Putra,Putra,corrected
+PF018,jenisNarkotika,sabu,putusan_018.pdf,2,Putra,Putra,corrected
+PF018,beratBarabfBuktiGram,0.21,putusan_018.pdf,5,Putra,Putra,corrected
+PF018,pasalDakwaan,114(1)|112(1),putusan_018.pdf,4,Putra,Putra,corrected
+PF018,pasalTerbukti,112(1),putusan_018.pdf,16,Putra,Putra,corrected
+PF018,tuntutanBulan,54,putusan_018.pdf,2,Putra,Putra,corrected
+PF018,vonisBulan,54,putusan_018.pdf,16,Putra,Putra,corrected
+PF018,dendaRupiah,800000000,putusan_018.pdf,16,Putra,Putra,corrected
+PF019,nomorPerkara,898/Pid.Sus/2022/PN Kis,putusan_019.pdf,1,Putra,Putra,corrected
+PF019,tanggalPutusan,2022-12-15,putusan_019.pdf,15,Putra,Putra,corrected
+PF019,jenisNarkotika,sabu,putusan_019.pdf,2,Putra,Putra,corrected
+PF019,beratBarabfBuktiGram,0.18,putusan_019.pdf,5,Putra,Putra,corrected
+PF019,pasalDakwaan,114(1)|112(1),putusan_019.pdf,4,Putra,Putra,corrected
+PF019,pasalTerbukti,112(1),putusan_019.pdf,15,Putra,Putra,corrected
+PF019,tuntutanBulan,60,putusan_019.pdf,2,Putra,Putra,corrected
+PF019,vonisBulan,48,putusan_019.pdf,15,Putra,Putra,corrected
+PF019,dendaRupiah,800000000,putusan_019.pdf,15,Putra,Putra,corrected
+PF020,nomorPerkara,899/Pid.Sus/2022/PN Kis,putusan_020.pdf,1,Putra,Putra,corrected
+PF020,tanggalPutusan,2022-12-15,putusan_020.pdf,15,Putra,Putra,corrected
+PF020,jenisNarkotika,sabu,putusan_020.pdf,2,Putra,Putra,corrected
+PF020,beratBarabfBuktiGram,0.21,putusan_020.pdf,5,Putra,Putra,corrected
+PF020,pasalDakwaan,114(1)|112(1),putusan_020.pdf,4,Putra,Putra,corrected
+PF020,pasalTerbukti,112(1),putusan_020.pdf,15,Putra,Putra,corrected
+PF020,tuntutanBulan,54,putusan_020.pdf,2,Putra,Putra,corrected
+PF020,vonisBulan,48,putusan_020.pdf,15,Putra,Putra,corrected
+PF020,dendaRupiah,800000000,putusan_020.pdf,15,Putra,Putra,corrected
+PF021,nomorPerkara,958/Pid.Sus/2022/PN Kis,putusan_021.pdf,1,Putra,Putra,corrected
+PF021,tanggalPutusan,2022-12-15,putusan_021.pdf,19,Putra,Putra,corrected
+PF021,jenisNarkotika,sabu,putusan_021.pdf,2,Putra,Putra,corrected
+PF021,beratBarabfBuktiGram,0.15,putusan_021.pdf,5,Putra,Putra,corrected
+PF021,pasalDakwaan,114(1)|112(1),putusan_021.pdf,4,Putra,Putra,corrected
+PF021,pasalTerbukti,112(1),putusan_021.pdf,19,Putra,Putra,corrected
+PF021,tuntutanBulan,12,putusan_021.pdf,2,Putra,Putra,corrected
+PF021,vonisBulan,8,putusan_021.pdf,19,Putra,Putra,corrected
+PF021,dendaRupiah,800000000,putusan_021.pdf,19,Putra,Putra,corrected
+PF022,nomorPerkara,959/Pid.Sus/2022/PN Kis,putusan_022.pdf,1,Putra,Putra,corrected
+PF022,tanggalPutusan,2022-12-15,putusan_022.pdf,19,Putra,Putra,corrected
+PF022,jenisNarkotika,sabu,putusan_022.pdf,2,Putra,Putra,corrected
+PF022,beratBarabfBuktiGram,0.28,putusan_022.pdf,5,Putra,Putra,corrected
+PF022,pasalDakwaan,114(1)|112(1),putusan_022.pdf,4,Putra,Putra,corrected
+PF022,pasalTerbukti,112(1),putusan_022.pdf,19,Putra,Putra,corrected
+PF022,tuntutanBulan,36,putusan_022.pdf,2,Putra,Putra,corrected
+PF022,vonisBulan,22,putusan_022.pdf,19,Putra,Putra,corrected
+PF022,dendaRupiah,800000000,putusan_022.pdf,19,Putra,Putra,corrected
+PF023,nomorPerkara,967/Pid.Sus/2022/PN Kis,putusan_023.pdf,1,Putra,Putra,corrected
+PF023,tanggalPutusan,2022-12-15,putusan_023.pdf,28,Putra,Putra,corrected
+PF023,jenisNarkotika,sabu,putusan_023.pdf,2,Putra,Putra,corrected
+PF023,beratBarabfBuktiGram,0.35,putusan_023.pdf,5,Putra,Putra,corrected
+PF023,pasalDakwaan,114(1)|112(1),putusan_023.pdf,4,Putra,Putra,corrected
+PF023,pasalTerbukti,112(1),putusan_023.pdf,28,Putra,Putra,corrected
+PF023,tuntutanBulan,72,putusan_023.pdf,2,Putra,Putra,corrected
+PF023,vonisBulan,54,putusan_023.pdf,28,Putra,Putra,corrected
+PF023,dendaRupiah,800000000,putusan_023.pdf,28,Putra,Putra,corrected
+PF024,nomorPerkara,968/Pid.Sus/2022/PN Kis,putusan_024.pdf,1,Putra,Putra,corrected
+PF024,tanggalPutusan,2022-12-15,putusan_024.pdf,29,Putra,Putra,corrected
+PF024,jenisNarkotika,sabu,putusan_024.pdf,2,Putra,Putra,corrected
+PF024,beratBarabfBuktiGram,0.42,putusan_024.pdf,5,Putra,Putra,corrected
+PF024,pasalDakwaan,114(1)|112(1),putusan_024.pdf,4,Putra,Putra,corrected
+PF024,pasalTerbukti,112(1),putusan_024.pdf,29,Putra,Putra,corrected
+PF024,tuntutanBulan,66,putusan_024.pdf,2,Putra,Putra,corrected
+PF024,vonisBulan,48,putusan_024.pdf,29,Putra,Putra,corrected
+PF024,dendaRupiah,800000000,putusan_024.pdf,29,Putra,Putra,corrected
+PF025,nomorPerkara,969/Pid.Sus/2022/PN Kis,putusan_025.pdf,1,Putra,Putra,corrected
+PF025,tanggalPutusan,2022-12-15,putusan_025.pdf,31,Putra,Putra,corrected
+PF025,jenisNarkotika,sabu,putusan_025.pdf,2,Putra,Putra,corrected
+PF025,beratBarabfBuktiGram,0.45,putusan_025.pdf,5,Putra,Putra,corrected
+PF025,pasalDakwaan,114(1)|112(1),putusan_025.pdf,4,Putra,Putra,corrected
+PF025,pasalTerbukti,112(1),putusan_025.pdf,31,Putra,Putra,corrected
+PF025,tuntutanBulan,54,putusan_025.pdf,2,Putra,Putra,corrected
+PF025,vonisBulan,54,putusan_025.pdf,31,Putra,Putra,corrected
+PF025,dendaRupiah,800000000,putusan_025.pdf,31,Putra,Putra,corrected
+PF026,nomorPerkara,457/Pid.Sus/2024/PN Kis,putusan_026.pdf,1,Farrel,Farrel,corrected
+PF026,tanggalPutusan,2024-08-21,putusan_026.pdf,23,Farrel,Farrel,corrected
+PF026,jenisNarkotika,Sabu,putusan_026.pdf,5-7,Farrel,Farrel,corrected
+PF026,beratBarabfBuktiGram,06.02,putusan_026.pdf,5-7,Farrel,Farrel,corrected
+PF026,pasalDakwaan,114(2) jo 132(1)|112(2),putusan_026.pdf,3,Farrel,Farrel,corrected
+PF026,pasalTerbukti,114(2) jo 132(1),putusan_026.pdf,22,Farrel,Farrel,corrected
+PF026,tuntutanBulan,96,putusan_026.pdf,2-3,Farrel,Farrel,corrected
+PF026,vonisBulan,72,putusan_026.pdf,22,Farrel,Farrel,corrected
+PF026,dendaRupiah,2000000000,putusan_026.pdf,22,Farrel,Farrel,corrected
+PF027,nomorPerkara,470/Pid.Sus/2024/PN Kis,putusan_027.pdf,1,Farrel,Farrel,corrected
+PF027,tanggalPutusan,2024-11-19,putusan_027.pdf,27,Farrel,Farrel,corrected
+PF027,jenisNarkotika,Sabu,putusan_027.pdf,3,Farrel,Farrel,corrected
+PF027,beratBarabfBuktiGram,6.988,putusan_027.pdf,3-4,Farrel,Farrel,corrected
+PF027,pasalDakwaan,114(1) jo 132(1)|112(1) jo 132(1),putusan_027.pdf,2-3,Farrel,Farrel,corrected
+PF027,pasalTerbukti,112(1),putusan_027.pdf,26,Farrel,Farrel,corrected
+PF027,tuntutanBulan,108,putusan_027.pdf,2-3,Farrel,Farrel,corrected
+PF027,vonisBulan,18,putusan_027.pdf,26,Farrel,Farrel,corrected
+PF027,dendaRupiah,1000000000,putusan_027.pdf,26,Farrel,Farrel,corrected
+PF028,nomorPerkara,650/Pid.Sus/2024/PN Kis,putusan_028.pdf,1,Farrel,Farrel,corrected
+PF028,tanggalPutusan,2024-11-21,putusan_028.pdf,19,Farrel,Farrel,corrected
+PF028,jenisNarkotika,Sabu,putusan_028.pdf,4,Farrel,Farrel,corrected
+PF028,beratBarabfBuktiGram,2.56,putusan_028.pdf,4,Farrel,Farrel,corrected
+PF028,pasalDakwaan,114(1)|112(1),putusan_028.pdf,3-5,Farrel,Farrel,corrected
+PF028,pasalTerbukti,114(1),putusan_028.pdf,19,Farrel,Farrel,corrected
+PF028,tuntutanBulan,96,putusan_028.pdf,2,Farrel,Farrel,corrected
+PF028,vonisBulan,84,putusan_028.pdf,19,Farrel,Farrel,corrected
+PF028,dendaRupiah,1000000000,putusan_028.pdf,19,Farrel,Farrel,corrected
+PF029,nomorPerkara,651/Pid.Sus/2024/PN Kis,putusan_029.pdf,1,Farrel,Farrel,corrected
+PF029,tanggalPutusan,2024-11-21,putusan_029.pdf,20,Farrel,Farrel,corrected
+PF029,jenisNarkotika,Sabu,putusan_029.pdf,9,Farrel,Farrel,corrected
+PF029,beratBarabfBuktiGram,1.28,putusan_029.pdf,9,Farrel,Farrel,corrected
+PF029,pasalDakwaan,114(1)|112(1),putusan_029.pdf,3-5,Farrel,Farrel,corrected
+PF029,pasalTerbukti,114(1),putusan_029.pdf,19,Farrel,Farrel,corrected
+PF029,tuntutanBulan,96,putusan_029.pdf,2,Farrel,Farrel,corrected
+PF029,vonisBulan,84,putusan_029.pdf,19,Farrel,Farrel,corrected
+PF029,dendaRupiah,1000000000,putusan_029.pdf,19,Farrel,Farrel,corrected
+PF030,nomorPerkara,670/Pid.Sus/2024/PN Kis,putusan_030.pdf,1,Farrel,Farrel,corrected
+PF030,tanggalPutusan,2024-11-21,putusan_030.pdf,19,Farrel,Farrel,corrected
+PF030,jenisNarkotika,Sabu,putusan_030.pdf,4,Farrel,Farrel,corrected
+PF030,beratBarabfBuktiGram,0.14,putusan_030.pdf,4,Farrel,Farrel,corrected
+PF030,pasalDakwaan,114(1) jo 132(1)|112(1) jo 132(1),putusan_030.pdf,2-3,Farrel,Farrel,corrected
+PF030,pasalTerbukti,114(1) jo 132(1),putusan_030.pdf,18,Farrel,Farrel,corrected
+PF030,tuntutanBulan,90,putusan_030.pdf,2,Farrel,Farrel,corrected
+PF030,vonisBulan,66,putusan_030.pdf,18,Farrel,Farrel,corrected
+PF030,dendaRupiah,1000000000,putusan_030.pdf,18,Farrel,Farrel,corrected
+PF031,nomorPerkara,688/Pid.Sus/2024/PN Kis,putusan_031.pdf,1,Farrel,Farrel,corrected
+PF031,tanggalPutusan,2024-11-20,putusan_031.pdf,30,Farrel,Farrel,corrected
+PF031,jenisNarkotika,Sabu,putusan_031.pdf,15,Farrel,Farrel,corrected
+PF031,beratBarabfBuktiGram,0.02,putusan_031.pdf,15,Farrel,Farrel,corrected
+PF031,pasalDakwaan,114(1) jo 132(1)|112(1) jo 132(1),putusan_031.pdf,17,Farrel,Farrel,corrected
+PF031,pasalTerbukti,112(1) jo 132(1),putusan_031.pdf,23,Farrel,Farrel,corrected
+PF031,tuntutanBulan,72,putusan_031.pdf,2,Farrel,Farrel,corrected
+PF031,vonisBulan,60,putusan_031.pdf,30,Farrel,Farrel,corrected
+PF031,dendaRupiah,800000000,putusan_031.pdf,30,Farrel,Farrel,corrected
+PF032,nomorPerkara,689/Pid.Sus/2024/PN Kis,putusan_032.pdf,1,Farrel,Farrel,corrected
+PF032,tanggalPutusan,2024-11-20,putusan_032.pdf,31,Farrel,Farrel,corrected
+PF032,jenisNarkotika,Sabu,putusan_032.pdf,26,Farrel,Farrel,corrected
+PF032,beratBarabfBuktiGram,0.02,putusan_032.pdf,26,Farrel,Farrel,corrected
+PF032,pasalDakwaan,114(1) jo 132(1)|112(1) jo 132(1),putusan_032.pdf,2,Farrel,Farrel,corrected
+PF032,pasalTerbukti,112(1) jo 132(1),putusan_032.pdf,29-30,Farrel,Farrel,corrected
+PF032,tuntutanBulan,84,putusan_032.pdf,2,Farrel,Farrel,corrected
+PF032,vonisBulan,72,putusan_032.pdf,30,Farrel,Farrel,corrected
+PF032,dendaRupiah,800000000,putusan_032.pdf,30,Farrel,Farrel,corrected
+PF033,nomorPerkara,691/Pid.Sus/2024/PN Kis,putusan_033.pdf,1,Farrel,Farrel,corrected
+PF033,tanggalPutusan,2024-12-19,putusan_033.pdf,25,Farrel,Farrel,corrected
+PF033,jenisNarkotika,Sabu,putusan_033.pdf,5,Farrel,Farrel,corrected
+PF033,beratBarabfBuktiGram,1.6663,putusan_033.pdf,5,Farrel,Farrel,corrected
+PF033,pasalDakwaan,114(1) jo 55(1) ke-1|112(1) jo 55(1) ke-1,putusan_033.pdf,3-4,Farrel,Farrel,corrected
+PF033,pasalTerbukti,114(1) jo 55(1) ke-1,putusan_033.pdf,24,Farrel,Farrel,corrected
+PF033,tuntutanBulan,180,putusan_033.pdf,24,Farrel,Farrel,corrected
+PF033,vonisBulan,96,putusan_033.pdf,24,Farrel,Farrel,corrected
+PF033,dendaRupiah,1000000000,putusan_033.pdf,24,Farrel,Farrel,corrected
+PF034,nomorPerkara,709/Pid.Sus/2024/PN Kis,putusan_034.pdf,1,Farrel,Farrel,corrected
+PF034,tanggalPutusan,2024-11-21,putusan_034.pdf,16,Farrel,Farrel,corrected
+PF034,jenisNarkotika,Sabu,putusan_034.pdf,4,Farrel,Farrel,corrected
+PF034,beratBarabfBuktiGram,2.8036,putusan_034.pdf,4,Farrel,Farrel,corrected
+PF034,pasalDakwaan,114(1)|112(1),putusan_034.pdf,5-6,Farrel,Farrel,corrected
+PF034,pasalTerbukti,112(1),putusan_034.pdf,14,Farrel,Farrel,corrected
+PF034,tuntutanBulan,84,putusan_034.pdf,2,Farrel,Farrel,corrected
+PF034,vonisBulan,72,putusan_034.pdf,16,Farrel,Farrel,corrected
+PF034,dendaRupiah,1400000000,putusan_034.pdf,16,Farrel,Farrel,corrected
+PF035,nomorPerkara,710/Pid.Sus/2024/PN Kis,putusan_035.pdf,1,Farrel,Farrel,corrected
+PF035,tanggalPutusan,2024-12-17,putusan_035.pdf,16,Farrel,Farrel,corrected
+PF035,jenisNarkotika,Ganja,putusan_035.pdf,4,Farrel,Farrel,corrected
+PF035,beratBarabfBuktiGram,18.87,putusan_035.pdf,4,Farrel,Farrel,corrected
+PF035,pasalDakwaan,111(1)|127(1) huruf a,putusan_035.pdf,2,Farrel,Farrel,corrected
+PF035,pasalTerbukti,111(1),putusan_035.pdf,16,Farrel,Farrel,corrected
+PF035,tuntutanBulan,84,putusan_035.pdf,2,Farrel,Farrel,corrected
+PF035,vonisBulan,54,putusan_035.pdf,16,Farrel,Farrel,corrected
+PF035,dendaRupiah,1000000000,putusan_035.pdf,16,Farrel,Farrel,corrected
+PF036,nomorPerkara,711/Pid.Sus/2024/PN Kis,putusan_036.pdf,1,Farrel,Farrel,corrected
+PF036,tanggalPutusan,2024-12-17,putusan_036.pdf,26,Farrel,Farrel,corrected
+PF036,jenisNarkotika,Sabu,putusan_036.pdf,15,Farrel,Farrel,corrected
+PF036,beratBarabfBuktiGram,2.313,putusan_036.pdf,15,Farrel,Farrel,corrected
+PF036,pasalDakwaan,114(1) jo 132(1)|112(1) jo 132(1),putusan_036.pdf,2-3,Farrel,Farrel,corrected
+PF036,pasalTerbukti,114(1) jo 132(1),putusan_036.pdf,24,Farrel,Farrel,corrected
+PF036,tuntutanBulan,120,putusan_036.pdf,2-3,Farrel,Farrel,corrected
+PF036,vonisBulan,96,putusan_036.pdf,24,Farrel,Farrel,corrected
+PF036,dendaRupiah,2000000000,putusan_036.pdf,24,Farrel,Farrel,corrected
+PF037,nomorPerkara,713/Pid.Sus/2024/PN Kis,putusan_037.pdf,1,Farrel,Farrel,corrected
+PF037,tanggalPutusan,2024-12-12,putusan_037.pdf,19,Farrel,Farrel,corrected
+PF037,jenisNarkotika,Sabu,putusan_037.pdf,10,Farrel,Farrel,corrected
+PF037,beratBarabfBuktiGram,2.99,putusan_037.pdf,10,Farrel,Farrel,corrected
+PF037,pasalDakwaan,114(1)|112(1),putusan_037.pdf,3-4,Farrel,Farrel,corrected
+PF037,pasalTerbukti,114(1),putusan_037.pdf,17,Farrel,Farrel,corrected
+PF037,tuntutanBulan,96,putusan_037.pdf,2-3,Farrel,Farrel,corrected
+PF037,vonisBulan,72,putusan_037.pdf,17,Farrel,Farrel,corrected
+PF037,dendaRupiah,1000000000,putusan_037.pdf,17,Farrel,Farrel,corrected
+PF038,nomorPerkara,714/Pid.Sus/2024/PN Kis,putusan_038.pdf,1,Farrel,Farrel,corrected
+PF038,tanggalPutusan,2024-11-21,putusan_038.pdf,18,Farrel,Farrel,corrected
+PF038,jenisNarkotika,Sabu,putusan_038.pdf,4,Farrel,Farrel,corrected
+PF038,beratBarabfBuktiGram,0.05,putusan_038.pdf,4,Farrel,Farrel,corrected
+PF038,pasalDakwaan,114(1)|112(1)|127(1)a,putusan_038.pdf,3-7,Farrel,Farrel,corrected
+PF038,pasalTerbukti,127(1)a,putusan_038.pdf,18,Farrel,Farrel,corrected
+PF038,tuntutanBulan,36,putusan_038.pdf,2,Farrel,Farrel,corrected
+PF038,vonisBulan,30,putusan_038.pdf,18,Farrel,Farrel,corrected
+PF038,dendaRupiah,0,putusan_038.pdf,18,Farrel,Farrel,corrected
+PF039,nomorPerkara,729/Pid.Sus/2024/PN Kis,putusan_039.pdf,1,Farrel,Farrel,corrected
+PF039,tanggalPutusan,2024-11-20,putusan_039.pdf,23,Farrel,Farrel,corrected
+PF039,jenisNarkotika,Sabu,putusan_039.pdf,7-8,Farrel,Farrel,corrected
+PF039,beratBarabfBuktiGram,4.84,putusan_039.pdf,7-8,Farrel,Farrel,corrected
+PF039,pasalDakwaan,114(1) jo 132(1)|112(1),putusan_039.pdf,4-5,Farrel,Farrel,corrected
+PF039,pasalTerbukti,114(1) jo 132(1),putusan_039.pdf,22,Farrel,Farrel,corrected
+PF039,tuntutanBulan,78,putusan_039.pdf,2,Farrel,Farrel,corrected
+PF039,vonisBulan,60,putusan_039.pdf,22,Farrel,Farrel,corrected
+PF039,dendaRupiah,1000000000,putusan_039.pdf,22,Farrel,Farrel,corrected
+PF040,nomorPerkara,730/Pid.Sus/2024/PN Kis,putusan_040.pdf,1,Farrel,Farrel,corrected
+PF040,tanggalPutusan,2024-11-20,putusan_040.pdf,22,Farrel,Farrel,corrected
+PF040,jenisNarkotika,Sabu,putusan_040.pdf,12,Farrel,Farrel,corrected
+PF040,beratBarabfBuktiGram,4.84,putusan_040.pdf,12,Farrel,Farrel,corrected
+PF040,pasalDakwaan,114(1) jo 132(1)|112(1),putusan_040.pdf,2,Farrel,Farrel,corrected
+PF040,pasalTerbukti,114(1) jo 132(1),putusan_040.pdf,21,Farrel,Farrel,corrected
+PF040,tuntutanBulan,96,putusan_040.pdf,2,Farrel,Farrel,corrected
+PF040,vonisBulan,84,putusan_040.pdf,21,Farrel,Farrel,corrected
+PF040,dendaRupiah,1000000000,putusan_040.pdf,21,Farrel,Farrel,corrected
+PF041,nomorPerkara,731/Pid.Sus/2024/PN Kis,putusan_041.pdf,1,Farrel,Farrel,corrected
+PF041,tanggalPutusan,2025-01-21,putusan_041.pdf,20,Farrel,Farrel,corrected
+PF041,jenisNarkotika,Sabu,putusan_041.pdf,16,Farrel,Farrel,corrected
+PF041,beratBarabfBuktiGram,0.07,putusan_041.pdf,16,Farrel,Farrel,corrected
+PF041,pasalDakwaan,114(1)|112(1),putusan_041.pdf,3-4,Farrel,Farrel,corrected
+PF041,pasalTerbukti,112(1),putusan_041.pdf,18-19,Farrel,Farrel,corrected
+PF041,tuntutanBulan,84,putusan_041.pdf,2,Farrel,Farrel,corrected
+PF041,vonisBulan,48,putusan_041.pdf,18-19,Farrel,Farrel,corrected
+PF041,dendaRupiah,800000000,putusan_041.pdf,18-19,Farrel,Farrel,corrected
+PF042,nomorPerkara,737/Pid.Sus/2024/PN Kis,putusan_042.pdf,1,Farrel,Farrel,corrected
+PF042,tanggalPutusan,2024-12-11,putusan_042.pdf,25,Farrel,Farrel,corrected
+PF042,jenisNarkotika,Sabu,putusan_042.pdf,13-14,Farrel,Farrel,corrected
+PF042,beratBarabfBuktiGram,586.34,putusan_042.pdf,13-14,Farrel,Farrel,corrected
+PF042,pasalDakwaan,114(2)|112(2),putusan_042.pdf,2,Farrel,Farrel,corrected
+PF042,pasalTerbukti,114(2),putusan_042.pdf,23,Farrel,Farrel,corrected
+PF042,tuntutanBulan,156,putusan_042.pdf,2,Farrel,Farrel,corrected
+PF042,vonisBulan,104,putusan_042.pdf,23,Farrel,Farrel,corrected
+PF042,dendaRupiah,1000000000,putusan_042.pdf,23,Farrel,Farrel,corrected
+PF043,nomorPerkara,738/Pid.Sus/2024/PN Kis,putusan_043.pdf,1,Farrel,Farrel,corrected
+PF043,tanggalPutusan,2024-12-12,putusan_043.pdf,23,Farrel,Farrel,corrected
+PF043,jenisNarkotika,Sabu,putusan_043.pdf,10,Farrel,Farrel,corrected
+PF043,beratBarabfBuktiGram,3.30,putusan_043.pdf,10,Farrel,Farrel,corrected
+PF043,pasalDakwaan,114(1)|112(1),putusan_043.pdf,2,Farrel,Farrel,corrected
+PF043,pasalTerbukti,114(1),putusan_043.pdf,22,Farrel,Farrel,corrected
+PF043,tuntutanBulan,108,putusan_043.pdf,2,Farrel,Farrel,corrected
+PF043,vonisBulan,96,putusan_043.pdf,22,Farrel,Farrel,corrected
+PF043,dendaRupiah,1000000000,putusan_043.pdf,22,Farrel,Farrel,corrected
+PF044,nomorPerkara,740/Pid.Sus/2024/PN Kis,putusan_044.pdf,1,Farrel,Farrel,corrected
+PF044,tanggalPutusan,2024-12-17,putusan_044.pdf,20,Farrel,Farrel,corrected
+PF044,jenisNarkotika,Sabu,putusan_044.pdf,12,Farrel,Farrel,corrected
+PF044,beratBarabfBuktiGram,147,putusan_044.pdf,12,Farrel,Farrel,corrected
+PF044,pasalDakwaan,114(1)|112(1)|127(1)a,putusan_044.pdf,5-6,Farrel,Farrel,corrected
+PF044,pasalTerbukti,127(1)a jo 55(1) ke-1,putusan_044.pdf,18-19,Farrel,Farrel,corrected
+PF044,tuntutanBulan,36,putusan_044.pdf,2-3,Farrel,Farrel,corrected
+PF044,vonisBulan,30,putusan_044.pdf,19-20,Farrel,Farrel,corrected
+PF044,dendaRupiah,0,putusan_044.pdf,20,Farrel,Farrel,corrected
+PF045,nomorPerkara,745/Pid.Sus/2024/PN Kis,putusan_045.pdf,1,Farrel,Farrel,corrected
+PF045,tanggalPutusan,2024-12-16,putusan_045.pdf,21,Farrel,Farrel,corrected
+PF045,jenisNarkotika,Sabu,putusan_045.pdf,11-12,Farrel,Farrel,corrected
+PF045,beratBarabfBuktiGram,1.42,putusan_045.pdf,11-12,Farrel,Farrel,corrected
+PF045,pasalDakwaan,114(1)|112(1),putusan_045.pdf,2,Farrel,Farrel,corrected
+PF045,pasalTerbukti,114(1),putusan_045.pdf,20,Farrel,Farrel,corrected
+PF045,tuntutanBulan,72,putusan_045.pdf,2,Farrel,Farrel,corrected
+PF045,vonisBulan,60,putusan_045.pdf,20,Farrel,Farrel,corrected
+PF045,dendaRupiah,1000000000,putusan_045.pdf,20,Farrel,Farrel,corrected
+PF046,nomorPerkara,757/Pid.Sus/2024/PN Kis,putusan_046.pdf,1,Farrel,Farrel,corrected
+PF046,tanggalPutusan,2024-12-12,putusan_046.pdf,19,Farrel,Farrel,corrected
+PF046,jenisNarkotika,Sabu,putusan_046.pdf,6,Farrel,Farrel,corrected
+PF046,beratBarabfBuktiGram,0.06,putusan_046.pdf,6,Farrel,Farrel,corrected
+PF046,pasalDakwaan,114(1)|112(1)|127(1)a,putusan_046.pdf,5-7,Farrel,Farrel,corrected
+PF046,pasalTerbukti,127(1)a,putusan_046.pdf,17,Farrel,Farrel,corrected
+PF046,tuntutanBulan,84,putusan_046.pdf,2,Farrel,Farrel,corrected
+PF046,vonisBulan,30,putusan_046.pdf,17,Farrel,Farrel,corrected
+PF046,dendaRupiah,0,putusan_046.pdf,17,Farrel,Farrel,corrected
+PF047,nomorPerkara,758/Pid.Sus/2024/PN Kis,putusan_047.pdf,1,Farrel,Farrel,corrected
+PF047,tanggalPutusan,2024-12-12,putusan_047.pdf,22,Farrel,Farrel,corrected
+PF047,jenisNarkotika,Sabu,putusan_047.pdf,7,Farrel,Farrel,corrected
+PF047,beratBarabfBuktiGram,0.02,putusan_047.pdf,7,Farrel,Farrel,corrected
+PF047,pasalDakwaan,112(1)|127(1)a,putusan_047.pdf,13-16,Farrel,Farrel,corrected
+PF047,pasalTerbukti,127(1)a,putusan_047.pdf,21,Farrel,Farrel,corrected
+PF047,tuntutanBulan,36,putusan_047.pdf,2,Farrel,Farrel,corrected
+PF047,vonisBulan,30,putusan_047.pdf,21,Farrel,Farrel,corrected
+PF047,dendaRupiah,0,putusan_047.pdf,21,Farrel,Farrel,corrected
+PF048,nomorPerkara,760/Pid.Sus/2024/PN Kis,putusan_048.pdf,1,Farrel,Farrel,corrected
+PF048,tanggalPutusan,2024-12-11,putusan_048.pdf,18,Farrel,Farrel,corrected
+PF048,jenisNarkotika,Ganja,putusan_048.pdf,8,Farrel,Farrel,corrected
+PF048,beratBarabfBuktiGram,300.18,putusan_048.pdf,8,Farrel,Farrel,corrected
+PF048,pasalDakwaan,114(1)|111(1),putusan_048.pdf,5-6,Farrel,Farrel,corrected
+PF048,pasalTerbukti,111(1),putusan_048.pdf,13-14,Farrel,Farrel,corrected
+PF048,tuntutanBulan,78,putusan_048.pdf,2,Farrel,Farrel,corrected
+PF048,vonisBulan,48,putusan_048.pdf,17-18,Farrel,Farrel,corrected
+PF048,dendaRupiah,800000000,putusan_048.pdf,17-18,Farrel,Farrel,corrected
+PF049,nomorPerkara,771/Pid.Sus/2024/PN Kis,putusan_049.pdf,1,Farrel,Farrel,corrected
+PF049,tanggalPutusan,2024-12-12,putusan_049.pdf,22,Farrel,Farrel,corrected
+PF049,jenisNarkotika,Sabu,putusan_049.pdf,19,Farrel,Farrel,corrected
+PF049,beratBarabfBuktiGram,360.59,putusan_049.pdf,19,Farrel,Farrel,corrected
+PF049,pasalDakwaan,114(2)|112(2),putusan_049.pdf,3-4,Farrel,Farrel,corrected
+PF049,pasalTerbukti,114(2),putusan_049.pdf,20,Farrel,Farrel,corrected
+PF049,tuntutanBulan,144,putusan_049.pdf,2,Farrel,Farrel,corrected
+PF049,vonisBulan,120,putusan_049.pdf,21,Farrel,Farrel,corrected
+PF049,dendaRupiah,2000000000,putusan_049.pdf,21,Farrel,Farrel,corrected
+PF050,nomorPerkara,806/Pid.Sus/2024/PN Kis,putusan_050.pdf,1,Farrel,Farrel,corrected
+PF050,tanggalPutusan,2024-12-11,putusan_050.pdf,19,Farrel,Farrel,corrected
+PF050,jenisNarkotika,Sabu,putusan_050.pdf,18,Farrel,Farrel,corrected
+PF050,beratBarabfBuktiGram,0.10,putusan_050.pdf,18,Farrel,Farrel,corrected
+PF050,pasalDakwaan,112(1),putusan_050.pdf,2-3,Farrel,Farrel,corrected
+PF050,pasalTerbukti,112(1),putusan_050.pdf,18-19,Farrel,Farrel,corrected
+PF050,tuntutanBulan,72,putusan_050.pdf,2,Farrel,Farrel,corrected
+PF050,vonisBulan,60,putusan_050.pdf,19,Farrel,Farrel,corrected
+PF050,dendaRupiah,800000000,putusan_050.pdf,19,Farrel,Farrel,corrected

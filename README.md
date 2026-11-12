@@ -35,7 +35,44 @@ pengurutan berdasarkan vonis, audit riwayat operasi, dan ekspor hasil ke CSV/TXT
 
 ## Aturan Data
 
-Aturan berikut dipakai saat mengekstrak nilai dari PDF putusan.
+| No | Atribut / Situasi | Aturan | Contoh |
+|---:|---|---|---|
+| 1 | `caseId` | PF + 3 digit, sama dengan nomor file | `PF001` |
+| 2 | `nomorPerkara` | Salin persis dari halaman 1 | `761/Pid.Sus/2022/PN Kis` |
+| 3 | `pengadilan` | Selalu sama | `PN Kisaran` |
+| 4 | `tanggalPutusan` | Tanggal dibacakan/diucapkan, format tahun-bulan-tanggal | `2022-12-08` |
+| 5 | `terdakwaKode` | T + nomor case, nama asli tidak boleh ditulis | `T001` |
+| 6 | `jenisNarkotika` | Huruf kecil: sabu / ganja / ekstasi / lainnya; lebih dari satu dipisah garis tegak | `sabu;ganja` |
+| 7 | `beratBarangBuktiGram` | Jumlah berat BERSIH semua narkotika (Berita Acara Lab), desimal pakai titik | `6.493` |
+| 8 | Berat hanya bruto atau hanya jumlah butir | Isi 0, status provenance = missing | `0` |
+| 9 | `pasalDakwaan` | Semua pasal di dakwaan, dipisah garis tegak, format pasal(ayat) | `114(1) jo 132(1)\|112(1) jo 132(1)` |
+| 10 | `pasalTerbukti` | Pasal di amar; jika amar hanya menyebut “dakwaan kedua”, lihat pasal dakwaan kedua | `112(1) jo 132(1)` |
+| 11 | `tuntutanBulan` | Tuntutan jaksa dalam bulan (tahun × 12 + bulan) | `60` |
+| 12 | `vonisBulan` | Pidana penjara di amar dalam bulan; kurungan pengganti denda TIDAK dihitung | `48` |
+| 13 | Vonis rehabilitasi | `vonisBulan = 0`, tulis “rehabilitasi” di barangBukti | `0` |
+| 14 | `dendaRupiah` | Angka saja tanpa titik/Rp; tidak ada denda = 0 | `800000000` |
+| 15 | `barangBukti` | Ringkasan barang bukti utama, maksimal ±10 kata | `12 paket kecil sabu, 1 plastik klip kosong, 1 handphone Nokia hitam` |
+| 16 | `keadaanMemberatkan / Meringankan` | Ringkas dengan kata sendiri, maksimal ±15 kata | `Memberatkan: Perbuatan terdakwa bertentangan dengan program pemerintah yang sedang giat memberantas peredaran gelap narkotika. Meringankan: Sopan di persidangan; menyesali dan mengakui perbuatannya; belum pernah dihukum.` |
+| 17 | `sourcePages` | Halaman per kelompok atribut, format bagian:halaman dipisah titik koma | `identitas:1;dakwaan:4-6;tuntutan:2;laboratorium:4;pertimbangan:18-19;amar:19-20` |
+| 18 | Nilai tidak ditemukan | Angka = 0, teks = dikosongkan; jangan menebak | `0` |
+| 19 | Status provenance | extracted = baru diisi; verified = sudah dicek reviewer; corrected = diperbaiki reviewer; missing = tidak ada di putusan | `extracted` |
+| 20 | Vonis/tuntutan seumur hidup | `tuntutanBulan / vonisBulan = 999` | `0` |
+| 21 | Tuntutan pidana mati | `tuntutanBulan = 9999` | `0` |
+| 22 | Agregasi (rata-rata, total) vonis/tuntutan | Nilai 999 dan 9999 dikecualikan dari perhitungan rata-rata; tetap dipakai saat pengurutan | `0` |
+| 23 | Vonis seumur hidup / mati tanpa denda | `dendaRupiah = 0` | `0` |
+| 24 | Pidana kurungan pengganti denda | Tidak dihitung ke `vonisBulan` | `2 bulan` |
+| 25 | Lebih dari satu jenis narkotika | Jenis dipisah garis tegak; berat = jumlah berat bersih semuanya | `0` |
+| 26 | Jenis selain sabu/ganja/ekstasi | Tulis “lainnya” (tembakau sintetis, mefedron, dll.) | `0` |
+| 27 | Barang bukti hanya sisa pakai (alat hisap, pipa kaca) | `beratBarangBuktiGram = 0`, status provenance = missing | `0` |
+| 28 | Putusan menyebut “total keseluruhan berat bersih” | Pakai angka total yang tertulis, walau rinciannya tidak pas dijumlah | `0` |
+| 29 | Satu putusan dengan beberapa terdakwa | Tetap 1 record; kode terdakwa satu (T + nomor case); vonis diambil dari amar (biasanya “masing-masing” sama) | `0` |
+| 30 | Perkara terpisah dengan barang bukti yang sama | Masing-masing tetap 1 record dengan berat yang sama | `2022-12-08` |
+| 31 | Tanggal diucapkan “pada hari itu juga” | `tanggalPutusan = tanggal musyawarah` | `0` |
+| 32 | Tanggal diucapkan lebih awal dari tanggal musyawarah (salah ketik di putusan) | Pakai tanggal musyawarah, beri catatan di provenance | `0` |
+| 33 | Nomor perkara tahun berbeda dengan tahun putusan | Nomor disalin persis; `tanggalPutusan` tetap tanggal putusan | `Pasal 114(1) jo 132(1); Pasal 112(1) jo 132(1)` |
+| 34 | Pasal dengan jo Pasal 132 atau KUHP | Ditulis lengkap setelah pasal utama | `alternatif` |
+| 35 | Dakwaan berbentuk primair-subsidair atau alternatif | Semua pasal ditulis berurutan sesuai dakwaan | `0` |
+| 36 | Angka di amar tidak jelas/terpotong (“selama (enam) tahun”) | Ambil angka dari ejaan dalam kurung, beri catatan, wajib dicek reviewer | `0` |
 
 ### Format dan konversi
 

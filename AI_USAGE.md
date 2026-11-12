@@ -1,0 +1,32 @@
+# Catatan Penggunaan AI
+
+Kelompok 02 menggunakan AI generatif sebagai alat bantu terbatas sesuai
+Bagian 6 panduan UTS. Setiap keluaran AI diverifikasi oleh anggota yang
+menggunakannya sebelum dipakai. Draf kode dan dokumen dari AI hanya masuk
+ke repository lewat Pull Request yang direview oleh anggota lain.
+
+| No | Tanggal | Anggota | Alat | Tujuan | Ringkasan prompt | Bagian keluaran yang digunakan | Perubahan yang dilakukan | Cara verifikasi                                                |
+|----|---|---|---|---|---|---|---|----------------------------------------------------------------|
+| 1  | 2026-11-05 | Farrel | ChatGPT | Memahami tugas dan menyusun rencana kerja | Meminta analisis panduan UTS dan panduan langkah demi langkah | Urutan tahapan kerja, daftar jebakan rubrik, checklist pengerjaan | Rencana disesuaikan dengan kesepakatan kelompok | Dicocokkan ulang dengan panduan dosen                          |
+| 2  | 2026-11-05 | Farrel | ChatGPT | Mengganti nama 25 PDF dan membuat checksum | Meminta cara rename massal file PDF | Script PowerShell rename dan SHA-256 | Nilai awal nomor disesuaikan | Tabel pratinjau dicek, jumlah file = 25                        |
+| 3  | 2026-11-05 | Farrel | ChatGPT | Menyusun aturan ekstraksi data | Meminta usulan aturan konversi dan kasus khusus | Aturan ekstraksi (kemudian diringkas menjadi Aturan Data 1–28 di README) | Disepakati dan disesuaikan bersama rekan | Diuji saat mengekstrak putusan                                 |
+| 4  | 2026-11-09 | Putra | ChatGPT | Memperbaiki tampilan CSV di Excel | Menanyakan CSV yang tampil satu kolom di Excel | Penjelasan pemisah `;` dan cara membuka yang aman | Tidak menyimpan CSV lewat Excel | Isi file dicek di Notepad: pemisah koma, tanggal ISO           |
+| 5  | 2026-11-10 | Farrel | ChatGPT | Draf ADR-001 | Meminta draf bagian ADR yang belum diisi | Konteks, tabel kompleksitas, alasan, konsekuensi | Alasan disesuaikan dengan kebutuhan aplikasi | Dicocokkan dengan implementasi ArrayDinamis dan StackRiwayat   |
+| 6  | 2026-11-10 | Putra | ChatGPT | Fondasi kode: Maven, StrukturData, Putusan, parser CSV | Meminta pom.xml, interface sesuai panduan 3.2, kelas model, parser dengan validasi | Kode dan 12 unit test parser | Baris kosong berlebih di CSV ditemukan oleh test, diperbaiki di PR #11 | `mvn test` pass; test 50 record asli menangkap baris berlebih  |
+| 7  | 2026-11-10 | Farrel | ChatGPT | Struktur utama ArrayDinamis | Meminta array dinamis generik dengan resize ×2, insert, remove, search, validateInvariant | Kode dan 15 unit test | - | `mvn test` pass; pergeseran dicek dengan `gambarSlot()`        |
+| 8  | 2026-11-10 | Putra | ChatGPT | Struktur sekunder StackRiwayat | Meminta stack generik dengan searchPreserve dan restore | Kode dan 10 unit test | - | `mvn test` pass; urutan stack dicek dengan `gambarIsi()`       |
+| 9  | 2026-11-10 | Putra | ChatGPT | Fitur impor dan tampil | Meminta kelas aplikasi yang memakai ArrayDinamis dan mencatat riwayat | ArsipPutusan, Main awal, 4 test | - | Program dijalankan, 50 diterima 0 ditolak                      |
+| 10 | 2026-11-10 | Farrel | ChatGPT | Fitur cari | Meminta pencarian caseId dan nomor perkara dengan jumlah langkah | PencarianPutusan, HasilCari, 6 test | - | Langkah PF012, PF099, PF001, PF050 dicek di menu                   |
+| 11 | 2026-11-10 | Farrel | ChatGPT | Fitur filter | Meminta filter tunggal dan gabungan | FilterPutusan, KriteriaFilter, 7 test | - | Hasil filter gabungan dicocokkan dengan provenance (skenario 5) |
+| 12 | 2026-11-10 | Putra | ChatGPT | Fitur tambah dan hapus | Meminta tambah, sisip, hapus dengan validasi | Method di ArsipPutusan, 7 test skenario 3, 4, 7 | - | `mvn test` pass                                                |
+| 13 | 2026-11-10 | Putra | ChatGPT | Fitur agregasi | Meminta jumlah, rata-rata vonis tanpa kode khusus, total denda, distribusi jenis | AgregasiPutusan, JumlahJenis, 6 test | - | Rata-rata 4642/47 = 98,77 dihitung ulang                       |
+| 14 | 2026-11-10 | Farrel | ChatGPT | Fitur pengurutan | Meminta insertion sort stabil pada salinan dengan pencacah | PengurutanPutusan, 5 test | - | Pencacah 556/510 dan 697/652 dicek di menu                     |
+| 15 | 2026-11-10 | Putra | ChatGPT | Memperbaiki kode yang terlanjur dibuat di branch yang salah | Menanyakan cara memindahkan kelas ke branch yang benar tanpa force push | Langkah hapus, cadangkan, dan PR ulang | Agregasi dipisah ke PR #22; PR audit lama ditutup dan dibuat ulang (#23) | Files changed setiap PR dicek; riwayat commit tidak diubah     |
+| 16 | 2026-11-10 | Putra | ChatGPT | Fitur audit | Meminta tampil dan cari riwayat memakai searchPreserve | AuditRiwayat, 5 test | - | Urutan riwayat sebelum dan sesudah cari dicek sama             |
+| 17 | 2026-11-10 | Farrel | ChatGPT | Fitur ekspor | Meminta ekspor CSV yang bisa diimpor ulang dan laporan TXT | EksporPutusan, 5 test | - | Test ekspor lalu impor ulang 50 record pass                    |
+| 18 | 2026-11-10 | Farrel | ChatGPT | Menu konsol | Meminta menu yang menghubungkan semua fitur dan bisa diuji | MenuKonsol, Main, 7 test | - | Menu dijalankan manual; `mvn test` 89 pass                     |
+| 19 | 2026-11-11 | Farrel | ChatGPT | Analisis kompleksitas | Meminta tabel Big-O dan data empiris | `docs/analisis-kompleksitas.md` | - | Angka empiris dicek lewat menu 5, 8, 11                        |
+| 20 | 2026-11-11 | Putra | ChatGPT | ADR-002 | Meminta draf ADR algoritma cari dan urut beserta perbandingan algoritma | ADR-002; angka bubble, selection, merge sort dari simulasi | Bagian Pertimbangan tim ditulis sendiri | Angka insertion sort sama dengan pencacah Java                 |
+| 21 | 2026-11-11 | Farrel | ChatGPT | README lengkap | Meminta README dari awal sampai akhir dengan mempertahankan Dataset dan Aturan Data | README.md | Data anggota dicek | Perintah build/run dicoba; tautan dokumen dicek                |
+| 22 | 2026-11-11 | Putra | ChatGPT | Hubungan StackRiwayat dengan StrukturData | Meminta pemetaan operasi kontrak ke Stack | Bagian tambahan ADR-001 | - | Dicocokkan dengan method di StackRiwayat.java                  |
+| 23 | 2026-11-11 | Farrel, Putra | ChatGPT | Melengkapi AI_USAGE dan CONTRIBUTIONS | Meminta rekap dari riwayat commit dan PR | Tabel AI_USAGE dan CONTRIBUTIONS | Entri 7 dan 8 dikembalikan (sempat tertimpa di commit `1789513`) | -                                                              |

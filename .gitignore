@@ -1,0 +1,18 @@
+# PDF putusan sumber - tidak boleh masuk repo publik
+pdf/
+*.pdf
+
+# Catatan kerja internal (nama file asli dan checksum)
+daftar-file*
+
+# Hasil build Maven
+target/
+
+# File pengaturan IDE
+.idea/
+*.iml
+out/
+
+# File sistem
+.DS_Store
+Thumbs.db

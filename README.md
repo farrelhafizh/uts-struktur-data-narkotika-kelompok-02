@@ -246,22 +246,6 @@ Struktur sekunder: StackRiwayat<String>, size=2
 validateInvariant() kedua struktur: OK
 ```
 
-## Pengujian
-
-89 test JUnit 5 mencakup struktur data, parser, setiap fitur, dan menu konsol.
-Peta 7 skenario uji wajib ke test beserta langkah demonya ada di
-[`docs/skenario-uji.md`](docs/skenario-uji.md).
-
-| Skenario | Ringkasan hasil |
-|---|---|
-| 1. Muat 50 record | 50 diterima, 0 ditolak, `size() == 50` |
-| 2. Cari ada / tidak ada / batas | PF012 → indeks 11 (12 langkah); PF099 → -1 (50 langkah); PF001 dan PF050 |
-| 3. Hapus awal, tengah, akhir | elemen bergeser ke kiri, slot terakhir dikosongkan ([trace](docs/trace/trace-skenario-3.md)) |
-| 4. Tambah kembali 3 record | urutan PF001..PF050 kembali, invariant valid |
-| 5. Filter gabungan vs provenance | [isi caseId hasil filter] ([pemeriksaan PDF](docs/trace/skenario-5-provenance.md)) |
-| 6. Cari di Stack | urutan riwayat tidak berubah ([trace](docs/trace/trace-skenario-6.md)) |
-| 7. Record tidak valid | pesan error menyebut kolom yang salah, struktur tetap konsisten |
-
 ## Dokumentasi
 
 | Dokumen | Isi |
